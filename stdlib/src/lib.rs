@@ -2,6 +2,7 @@
 // how `mod` works, but we want this sometimes for pymodule declarations
 #![allow(clippy::module_inception)]
 #![cfg_attr(target_os = "redox", feature(raw_ref_op))]
+#![feature(wasip2)]
 
 #[macro_use]
 extern crate rustpython_derive;
